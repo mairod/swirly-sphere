@@ -44,7 +44,7 @@ class THREE_Controller {
             if (progress == 100) {
                 console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
                 console.log("%cPress \"@\" to show/hide devs tools", "padding: 10px; margin-bottom: 10px; color: #262626; font-size: 20px; font-family: sans-serif;")
-                console.log("%cCode available here : ", "padding: 10px; margin-bottom: 10px; color: #262626; font-size: 20px; font-family: sans-serif;")
+                console.log("%cCode available here : https://github.com/mairod/swirly-sphere", "padding: 10px; margin-bottom: 10px; color: #262626; font-size: 20px; font-family: sans-serif;")
                 setTimeout(function () {
                     STORAGE.audio.play()
                 }, 1000);
